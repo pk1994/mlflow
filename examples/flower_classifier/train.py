@@ -21,7 +21,7 @@ import mlflow
 
 from image_pyfunc import decode_and_resize_image, log_model, KerasImageClassifierPyfunc
 
-
+print("hiiii")
 def download_input():
     import requests
     url = 'http://download.tensorflow.org/example_images/flower_photos.tgz'
